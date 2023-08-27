@@ -2,6 +2,8 @@ import { useState, useCallback } from "react";
 import DropdownProfile from "../components/DropdownProfile";
 import PortalPopup from "../components/PortalPopup";
 import "./Home.css";
+import Navbar from '../components/Navbar';
+
 const Home = () => {
   const [isDropdownProfileOpen, setDropdownProfileOpen] = useState(false);
 
@@ -67,74 +69,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="navbar">
-          <div className="logo-parent">
-            <img className="logo-icon2" alt="" src="/logo2.svg" />
-            <div className="item-navbar-parent">
-              <div className="item-navbar">
-                <b className="katalog">Beranda</b>
-                <img
-                  className="iconarrowarrow-down"
-                  alt=""
-                  src="/iconarrowarrowdown.svg"
-                />
-              </div>
-              <div className="item-navbar1">
-                <div className="default">Katalog</div>
-                <img
-                  className="iconarrowarrow-down1"
-                  alt=""
-                  src="/iconarrowarrowdown.svg"
-                />
-              </div>
-              <div className="item-navbar">
-                <div className="default">Katalog</div>
-                <img
-                  className="iconarrowarrow-down"
-                  alt=""
-                  src="/iconarrowarrowdown.svg"
-                />
-              </div>
-              <div className="item-navbar">
-                <div className="default">Testimoni</div>
-                <img
-                  className="iconarrowarrow-down"
-                  alt=""
-                  src="/iconarrowarrowdown.svg"
-                />
-              </div>
-              <div className="item-navbar">
-                <div className="default">Tentang Kami</div>
-                <img
-                  className="iconarrowarrow-down"
-                  alt=""
-                  src="/iconarrowarrowdown.svg"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="item-navbar-group">
-            <div className="item-navbar5">
-              <div className="default">Your Order</div>
-              <img className="circle-icon" alt="" src="/circle.svg" />
-            </div>
-            <div className="message-notif">
-              <img
-                className="iconmessagesmessage-notif"
-                alt=""
-                src="/iconmessagesmessagenotif.svg"
-              />
-            </div>
-            <div className="ellipse-group" onClick={openDropdownProfile}>
-              <img className="ellipse-icon" alt="" src="/ellipse-3@2x.png" />
-              <img
-                className="iconarrowarrow-down5"
-                alt=""
-                src="/iconarrowarrowdown1.svg"
-              />
-            </div>
-          </div>
-        </div>
+        <Navbar/>
         <div className="frame-group">
           <div className="get-to-know-us-parent">
             <b className="get-to-know">Get to know us</b>

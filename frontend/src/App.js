@@ -5,6 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import Home from "./pages/Home";
+import { Katalog } from "./pages/Katalog";
 import { useEffect } from "react";
 
 function App() {
@@ -46,6 +47,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="Katalog" element={<Katalog />} />
+
     </Routes>
   );
 }
