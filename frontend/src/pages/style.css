@@ -1,0 +1,355 @@
+/* katalog css page */
+.katalog {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .katalog .div-3 {
+    background-color: var(--neutral-0);
+    height: 3440px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .katalog .overlap {
+    height: 884px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .katalog .group {
+    background-image: url(./shape-bg.svg);
+    background-size: 100% 100%;
+    height: 594px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .katalog .text-wrapper-2 {
+    color: var(--neutral-0);
+    font-family: var(--display-large-bold-font-family);
+    font-size: var(--display-large-bold-font-size);
+    font-style: var(--display-large-bold-font-style);
+    font-weight: var(--display-large-bold-font-weight);
+    left: 606px;
+    letter-spacing: var(--display-large-bold-letter-spacing);
+    line-height: var(--display-large-bold-line-height);
+    position: absolute;
+    text-align: center;
+    top: 169px;
+    white-space: nowrap;
+  }
+  
+  .katalog .design-component-instance-node-2 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .katalog .navbar-instance {
+    font-family: var(--title-small-bold-font-family) !important;
+    font-size: var(--title-small-bold-font-size) !important;
+    font-style: var(--title-small-bold-font-style) !important;
+    font-weight: var(--title-small-bold-font-weight) !important;
+    letter-spacing: var(--title-small-bold-letter-spacing) !important;
+    line-height: var(--title-small-bold-line-height) !important;
+    margin-top: unset !important;
+  }
+  
+  .katalog .icon-instance-node {
+    height: 17px !important;
+    position: relative !important;
+    width: 17px !important;
+  }
+  
+  .katalog .text-wrapper-3 {
+    color: var(--green-85);
+    font-family: var(--label-small-medium-font-family);
+    font-size: var(--label-small-medium-font-size);
+    font-style: var(--label-small-medium-font-style);
+    font-weight: var(--label-small-medium-font-weight);
+    left: 24px;
+    letter-spacing: var(--label-small-medium-letter-spacing);
+    line-height: var(--label-small-medium-line-height);
+    position: absolute;
+    top: 367px;
+    white-space: nowrap;
+  }
+  
+  .katalog .frame-4 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    left: 60px;
+    position: absolute;
+    top: 314px;
+  }
+  
+  .katalog .frame-5 {
+    background-color: #ebf2fa;
+    border-radius: 10px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    width: 1320px;
+  }
+  
+  .katalog .overlap-group {
+    height: 449px;
+    left: 758px;
+    position: absolute;
+    top: 25px;
+    width: 517px;
+  }
+  
+  .katalog .img {
+    height: 410px;
+    left: 137px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 381px;
+  }
+  
+  .katalog .logo-3 {
+    height: 52px !important;
+    left: 285px !important;
+    top: 116px !important;
+    width: 85px !important;
+  }
+  
+  .katalog .pngwing-2 {
+    height: 408px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 42px;
+    width: 378px;
+  }
+  
+  .katalog .logo-4 {
+    height: 48px !important;
+    left: 129px !important;
+    top: 146px !important;
+    width: 83px !important;
+  }
+  
+  .katalog .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    left: 98px;
+    position: absolute;
+    top: 194px;
+  }
+  
+  .katalog .text-wrapper-4 {
+    color: var(--neutral-90);
+    font-family: var(--display-large-bold-font-family);
+    font-size: var(--display-large-bold-font-size);
+    font-style: var(--display-large-bold-font-style);
+    font-weight: var(--display-large-bold-font-weight);
+    letter-spacing: var(--display-large-bold-letter-spacing);
+    line-height: var(--display-large-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .katalog .t-cs-apply {
+    color: var(--neutral-90);
+    font-family: var(--title-large-regular-font-family);
+    font-size: var(--title-large-regular-font-size);
+    font-style: var(--title-large-regular-font-style);
+    font-weight: var(--title-large-regular-font-weight);
+    letter-spacing: var(--title-large-regular-letter-spacing);
+    line-height: var(--title-large-regular-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .katalog .frame-7 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .katalog .ellipse-2 {
+    background-color: var(--neutral-0);
+    border-radius: 60px/10px;
+    height: 20px;
+    position: relative;
+    width: 120px;
+  }
+  
+  .katalog .frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .katalog .rectangle {
+    background-color: var(--green-50);
+    border-radius: 20px;
+    height: 14px;
+    position: relative;
+    width: 57px;
+  }
+  
+  .katalog .ellipse-3 {
+    background-color: var(--green-15);
+    border-radius: 7px;
+    height: 14px;
+    position: relative;
+    width: 14px;
+  }
+  
+  .katalog .icon-arrow-arrow-2 {
+    height: 50px !important;
+    position: relative !important;
+    width: 50px !important;
+  }
+  
+  .katalog .frame-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    left: 65px;
+    position: absolute;
+    top: 984px;
+  }
+  
+  .katalog .frame-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .katalog .text-wrapper-5 {
+    color: var(--green-50);
+    font-family: var(--headline-large-bold-font-family);
+    font-size: var(--headline-large-bold-font-size);
+    font-style: var(--headline-large-bold-font-style);
+    font-weight: var(--headline-large-bold-font-weight);
+    letter-spacing: var(--headline-large-bold-letter-spacing);
+    line-height: var(--headline-large-bold-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: 1310px;
+  }
+  
+  .katalog .frame-10 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .katalog .item-produk-instance {
+    flex: 0 0 auto !important;
+  }
+  
+  .katalog .item-produk-2 {
+    background-color: #ebf2fa !important;
+    background-image: unset !important;
+    background-size: unset !important;
+    border-radius: 10px !important;
+  }
+  
+  .katalog .div-wrapper {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    left: 65px;
+    position: absolute;
+    top: 1512px;
+  }
+  
+  .katalog .frame-11 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    left: 65px;
+    position: absolute;
+    top: 2040px;
+  }
+  
+  .katalog .frame-12 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    left: 65px;
+    position: absolute;
+    top: 2568px;
+  }
+  
+  .katalog .overlap-group-wrapper {
+    height: 368px;
+    position: relative;
+    width: 320px;
+  }
+  
+  .katalog .overlap-group-2 {
+    border-radius: 10px;
+    height: 368px;
+    position: relative;
+  }
+  
+  .katalog .ellipse-4 {
+    background-color: var(--neutral-90);
+    border-radius: 40px;
+    height: 80px;
+    left: 84px;
+    position: absolute;
+    top: 158px;
+    width: 80px;
+  }
+  
+  .katalog .item-produk-3 {
+    object-fit: unset !important;
+  }
+  
+  .katalog .item-produk-4 {
+    height: 228px !important;
+    left: 47px !important;
+    object-fit: unset !important;
+    width: 207px !important;
+  }
+  
+  .katalog .footer-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 3096px !important;
+  }
